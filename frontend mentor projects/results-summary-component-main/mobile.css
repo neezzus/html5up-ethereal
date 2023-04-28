@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,700;1,800&family=Kanit:ital,wght@0,200;0,300;1,100;1,300&family=Roboto:ital,wght@0,300;0,400;0,700;1,700&family=Shantell+Sans:ital,wght@0,400;1,300&display=swap');
+
+* {
+    font-family: "haken grotesk ", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(221, 100%, 96%);
+    padding: 2rem 0;
+}
+
+/* Left Card */
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.card__container--results,
+.card__container--summary {
+    width: 375px;
+}
+
+.card__container--results {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+    border-radius: 0 0 2rem 2rem;
+    justify-content: center;
+    padding:2rem;
+
+}
+
+.card__text {
+    color: hsl(241, 100%, 89%);
+    font-weight: 700;
+    font-size: 1rem;
+    /* margin: 0 0 0.5rem; */
+}
+
+.card__group--score {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    gap: 0.5rem;
+}
+
+.card__score {
+    font-weight: 800;
+    font-size: 4rem;
+
+}
+
+.card__demon {
+    color: hsl(241, 100%, 89%);
+    font-weight: 700;
+}
+
+.card__result {
+
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card__paragraph {
+    color: hsl(241, 100%, 89%);
+    line-height: 1.2rem;
+
+}
+
+.card__container--summary {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    font-weight: 700;
+    border-radius: 2rem;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.card__title {
+    color: hsl(224, 30%, 27%);
+    font-size: 1.25rem;
+    margin: 0 0 1rem;
+
+}
+
+/* Card Wrappers */
+
+.card__wrapper {
+    width: 300px;
+    height: 70px;
+    border-radius: 0.5rem;
+    padding: 1.25rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__wrapper--reaction {
+    background-color: hsla(0, 100%, 67%, 0.1);
+
+}
+
+.card__wrapper--memory {
+    background-color: hsla(39, 100%, 56%, 0.1);
+
+}
+
+.card__wrapper--verbal {
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+.card__wrapper--visual {
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+
+/* Icon styling*/
+
+.card__wrapper h3 {
+    position: relative;
+    left: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card__wrapper ::before {
+    position: absolute;
+    left: -1.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Card Titles */
+
+.card__title--reaction {
+    color: hsl(0, 100%, 67%);
+
+
+}
+
+.card__title--reaction::before {
+    content: url(/assets/images/icon-reaction.svg);
+
+
+}
+
+.card__title--memory {
+    color: hsl(39, 100%, 56%);
+
+
+}
+
+.card__title--memory::before {
+    content: url(/assets/images/icon-memory.svg);
+
+}
+
+.card__title--verbal {
+    color: hsl(166, 100%, 37%);
+}
+
+.card__title--verbal::before {
+    content: url(/assets/images/icon-verbal.svg);
+
+}
+
+.card__title--visual {
+    color: hsl(234, 85%, 45%);
+
+}
+
+.card__title--visual::before {
+    content: url(/assets/images/icon-visual.svg);
+
+}
+
+
+.card__button {
+    text-decoration: none;
+    text-align: center;
+    padding: 1.25rem 1rem;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 5rem;
+    margin-top: 0.5rem 0 0 0;
+}
+
+.card__button:hover {
+    background-color: hsl(234, 85%, 45%);
+}
+
+.card__button:active {
+    background-color: hsl(221, 100%, 96%);
+}
+
+
+

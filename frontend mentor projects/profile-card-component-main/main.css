@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    
+}
+main{
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    
+}
+
+.profile__container .profile__img img{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+}
+
+.profile__container .profile__pic{
+    transform: translateX(35%) translateY(-50%) ;
+}
+
+.profile__container .profile__pic img{
+    border-radius: 100px;
+}
+
+.profile__container .profile__text{
+    text-align: center;
+    margin-top: -40px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.profile__container .profile__text p{
+   margin-top: 10px;
+  
+  
+   
+}
+
+.profile__container .profile__text .greynumber{
+    color: hsl(0, 0%, 59%);
+}
+
+.profile__container .profile__text .lon{
+    color:hsl(0, 0%, 59%) ;
+}

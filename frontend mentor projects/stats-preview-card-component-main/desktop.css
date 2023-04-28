@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main{
+   
+    width: 59.3%;
+    height: 500px;
+    background-color:hsl(244, 38%, 16%);
+}
+
+.grow__container .left{
+    width:48%;
+    
+    float: left;
+}
+
+.grow__container .left{
+    padding:50px;
+}
+
+.grow__container .left h1{
+    padding: 0 80px 0 80px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: -25px;
+    
+    
+}
+
+.grow__container .left h1 .grow__purple{
+    color: hsl(277, 64%, 61%);
+    
+}
+
+.grow__container .left p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 50px;
+
+}
+
+.grow__container .left .grow__number{
+    background-color: yellow;
+}
+
+
+

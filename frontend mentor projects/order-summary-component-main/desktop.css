@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root{
+    --font-family: 'Red Hat Display', 'san-serif'
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    font-family: var(--font-family) ;
+    min-height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    width: 400px;
+    height: 70vh;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+img{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.music__container .music__text{
+    text-align: center;
+    margin-bottom: 30px;   
+}
+
+.music__container .music__text h1{
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.music__container .music__text p{
+    color: grey;
+}
+
+.music__container .music__plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:hsl(225, 100%, 98%);
+    width: 350px;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.music__plan .music__plan-img{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.music__plan .music__plan-text{
+    margin-left: -90px;
+}
+
+.music__plan .music__change{
+    margin-right: 15px;
+}
+
+.music__button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.music__button .music__pay{
+    background-color: hsl(245, 75%, 52%);
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid grey;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+}
+
+.music__button .music__pay:hover{
+    background-color:hsl(223, 47%, 23%);
+}
+
+.music__button .music__cancel{
+    text-decoration: none;
+    color: grey;
+}
+
+.music__button .music__cancel:hover{
+    color: black;
+}

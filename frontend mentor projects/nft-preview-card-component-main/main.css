@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+/* body{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    background-color:hsl(217, 54%, 11%);
+    
+
+}
+
+main{
+    width: 400px;
+    height: 600px;
+}
+
+.nft__container{
+background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    height: 600px;
+    padding: 40px 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nft__container .nft__img{
+    border-radius: 30px;
+    margin-top: -30px;
+
+}
+
+.nft__container img:hover{
+    background-color: hsl(178, 100%, 50%);
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+
+.nft__caption .nft__title{
+    margin-top: -20px;
+ 
+}
+
+.nft__caption .nft__text{
+    padding: 15px;
+    margin-left: -15px;
+    color: grey;
+
+}
+
+.ntf__timer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ntf__timer .nft__timer--price{
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+.ntf__timer .nft__timer--price::before{
+    content: url(images/icon-ethereum.svg);
+    margin-right: 10px;
+
+}
+
+.ntf__timer .nft__timer--days{
+    color:lightgray;
+}
+
+.ntf__timer .nft__timer--days::before{
+    content: url(images/icon-clock.svg);
+    margin-right: 10px;
+    color: lightgray;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    width: 300px;
+}
+
+.profile .profile__text{
+    color: lightgray;
+} */
+
+
+
+
+
+
+
